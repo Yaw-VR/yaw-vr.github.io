@@ -1,0 +1,44 @@
+site_name: Yaw VR Documentation
+repo_url: https://github.com/Yaw-VR/yaw-documentation
+repo_name: Yaw-VR/yaw-documentation
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  icon:
+    edit: material/pencil
+    view: material/eye
+    repo: fontawesome/brands/git-alt
+  features:
+    - content.action.edit
+markdown_extensions:
+  - toc:
+      permalink: "#"
+plugins:
+  - git-committers:
+      repository: Yaw-VR/yaw-documentation
+      branch: main
+      enabled: False
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: date
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://yawvr.com
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/YawVR
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/pymFJxPRN4
+nav:
+  - Home: index.md
+  - Hardware:
+    - Yaw 3:
+      - Assembly: hardware/yaw3/assembly.md
+      - USB Peripherals: hardware/yaw3/peripherals.md
+  - Software:
+    - Yaw VR Config: software/yawvrconfig.md
+    - Infuse VR: software/infusevr.md
+    - Game Engine: software/gameengine.md
+    - VirtualHere: software/virtualhere.md
+    - Yaw VR Emulator: software/yawvremu.md
