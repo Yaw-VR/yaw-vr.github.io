@@ -15,11 +15,15 @@ Infuse VR addresses these key challenges:
 These features make Infuse VR an indispensable tool for anyone looking to enhance their VR experience with ease and precisioWireless PCVR setup
 To get started with Infuse VR, follow these steps:
 
+## Installing Infuse VR
+
 1. **Install the Infuse VR server on your PC**: Download and install the Infuse VR server application via Steam <a href="https://store.steampowered.com/app/2532240/Infuse_VR/" target="_blank">https://store.steampowered.com/app/2532240/Infuse_VR/</a>.
-2. **Install the Infuse VR client apk on your headset**: Download the Infuse VR client apk from the official website or app store and install it on your Android based VR headset.
-3. **Open the Infuse VR application on your PC**: Steam and SteamVR will automatically launch, [Game Engine](gameengine.md) will also automatically load if installed.
-4. **Open the Infuse VR client on your headset**: Your headset will connect to the server and display the Steam VR environment.
-5. **Start a game**: Load a game via the SteamVR dashboard or Game Engine.
+2. **Install the Infuse VR client apk on your headset**: Open InfuseVR and click the Install latest APK button on the Connections tab with your headset connected in Developer mode.
+
+## Using Infuse VR
+1. **Open the Infuse VR application on your PC**: Steam and SteamVR will automatically launch, [Game Link](gamelink.md) will also automatically load if installed.
+2. **Open the Infuse VR client on your headset**: Your headset will connect to the server and display the Steam VR environment.
+3. **Start a game**: Load a game via the SteamVR dashboard or Game Link.
 
 ## Enable Motion Compensation
 

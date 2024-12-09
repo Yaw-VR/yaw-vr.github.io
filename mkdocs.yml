@@ -10,6 +10,24 @@ theme:
     repo: fontawesome/brands/git-alt
   features:
     - content.action.edit
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 markdown_extensions:
   - toc:
       permalink: "#"
@@ -17,7 +35,7 @@ plugins:
   - git-committers:
       repository: Yaw-VR/yaw-documentation
       branch: main
-      enabled: False
+      enabled: True
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -35,10 +53,12 @@ nav:
   - Hardware:
     - Yaw 3:
       - Assembly: hardware/yaw3/assembly.md
+      - Balance Simulator: hardware/yaw3/balance.md
+      - Connect Simulator: hardware/yaw3/connect.md
       - USB Peripherals: hardware/yaw3/peripherals.md
   - Software:
     - Yaw VR Config: software/yawvrconfig.md
     - Infuse VR: software/infusevr.md
-    - Game Engine: software/gameengine.md
+    - Game Link: software/gamelink.md
     - VirtualHere: software/virtualhere.md
     - Yaw VR Emulator: software/yawvremu.md

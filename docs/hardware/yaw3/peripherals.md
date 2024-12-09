@@ -1,14 +1,18 @@
 # USB Peripherals
 
-After setting up the [VirtualHere client](../../software/virtualhere.md) on your PC, connect your USB peripherals by plugging them into the available USB ports at the rear of the simulator.
+Connect your USB peripherals by plugging them into the available USB ports at the rear of the simulator. To access them on your computer you will need to set up the [Virtualhere](../../software/virtualhere.md) client on your computer. This client will allow you to access the connected devices as if they were physically plugged into your PC.
 
 ## Using a powered USB Hub
 
-The simulator allows for up to 4 USB devices plugged directly into it, if you have more then we suggest purchasing a powered USB hub. This will allow you to connect more than 4 devices without overloading the power supply of the simulator.
+The simulator allows for up to 4 USB devices plugged directly into it, if you have more devices then we suggest purchasing a powered USB hub. This will all of your USB devices have enough power.
 
 ## Connecting Devices
 
 With the simulator powered on, once connected, USB devices should be recognized by the VirtualHere client running on your PC. If they do not appear immediately, try unplugging and replugging them or restarting the VirtualHere client.
+
+## Using peripherals
+
+Configure peripherals in each game as you would any peripheral connected directly to your computer.
 
 ## Troubleshooting
 
