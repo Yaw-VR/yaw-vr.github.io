@@ -52,9 +52,9 @@ nav:
   - Home: index.md
   - Hardware:
     - Yaw 3:
-      - Assembly: hardware/yaw3/assembly.md
-      - Balance Simulator: hardware/yaw3/balance.md
-      - Connect Simulator: hardware/yaw3/connect.md
+      - Yaw 3 Assembly: hardware/yaw3/assembly.md
+      - Balancing the Simulator: hardware/yaw3/balance.md
+      - Connect to Network: hardware/yaw3/connect.md
       - USB Peripherals: hardware/yaw3/peripherals.md
   - Software:
     - Yaw VR Config: software/yawvrconfig.md
