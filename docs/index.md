@@ -47,4 +47,4 @@ Learn how to wirelessly connect USB devices from your Yaw VR simulator to your c
 
 ### Yaw VR Emulator
 
-For testing or game development when you don't have a physical device, the Yaw VR Emulator is available. Instructions for setting up and using the emulator can be found in [Yaw VR Emulator](software/yawvremulator.md).
+For testing or game development when you don't have a physical device, the Yaw VR Emulator is available. Instructions for setting up and using the emulator can be found in [Yaw VR Emulator](software/yawvremu.md).
