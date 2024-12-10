@@ -2,7 +2,7 @@
 
 ## Overview
 
-Infuse VR is a state-of-the-art application for streaming VR content from a PC to wireless headsets (Meta Quest/Pico). It also serves as a motoion compensating application, and comprehensive hand and gaming accessory visualization software tailored for VR enthusiasts.
+Infuse VR is a state-of-the-art application for streaming VR content from a PC to wireless headsets (Meta Quest/Pico). It also serves as a motion compensating application, and comprehensive hand and gaming accessory visualization software tailored for VR enthusiasts.
 
 **Note:** Infuse VR can be used without a Yaw Motion Simulator, and with 3rd party motion software such as Sim Racing Studio.
 
@@ -12,7 +12,6 @@ Infuse VR addresses these key challenges:
 2. **Motion Compensation**: Ensures smooth and stable video transmission, reducing motion sickness and enhancing overall immersion.
 3. **Hand and Gaming Accessory Visualization**: Allows you to see your hands and gaming accessories within the virtual space, ensuring better control and awareness of your surroundings while playing.
 
-These features make Infuse VR an indispensable tool for anyone looking to enhance their VR experience with ease and precisioWireless PCVR setup
 To get started with Infuse VR, follow these steps:
 
 ## Installing Infuse VR
@@ -36,7 +35,7 @@ To enable motion compensation in Infuse VR, follow these steps:
 1. **Open the Infuse VR dashboard within VR**: Tap on the Infuse VR icon within the VR view and a dashboard will appear
 2. **Enable Motion Compensation**:
    - Click on the tab labelled `Motion Compensation`.
-   - Adjust the settings to your preferance.
+   - Adjust the settings to your preference.
 3. **Save and apply changes**: Click `Apply` or `OK` to save your settings.
 
 ## Hand and Gaming Accessory Visualization

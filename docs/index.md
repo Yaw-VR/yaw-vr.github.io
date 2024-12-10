@@ -39,7 +39,7 @@ Control your simulators movement using [Game Link](software/gamelink.md).
 
 ### VirtualHere
 
-Learn how to wirelessly connect USB devices from your Yaw VR simulator to your comupter with [VirtualHere](software/virtualhere.md).
+Learn how to wirelessly connect USB devices from your Yaw VR simulator to your computer with [VirtualHere](software/virtualhere.md).
 
 ### Yaw VR Emulator
 

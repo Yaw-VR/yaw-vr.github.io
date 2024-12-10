@@ -1,4 +1,4 @@
-# Yaw VR Configurator
+# Yaw VR Config
 
 ## Overview
 

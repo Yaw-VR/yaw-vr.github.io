@@ -112,7 +112,7 @@ Settings for:
     - Recenter Yaw
 - Miscellaneous
     - Check updates on startup (default selected)
-    - Automtaically launch Steam games (default selected)
+    - Automatically launch Steam games (default selected)
     - Show splash (default selected)
     - Try to connect automatically (default selected)
     - Start device with delay (default selected)
