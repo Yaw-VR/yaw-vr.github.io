@@ -31,4 +31,4 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pipenv run mkdocs gh-deploy
+      - run: pipenv run mkdocs gh-deploy --force
