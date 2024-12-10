@@ -1,6 +1,6 @@
 site_name: Yaw VR Documentation
-repo_url: https://github.com/Yaw-VR/yaw-documentation
-repo_name: Yaw-VR/yaw-documentation
+repo_url: https://github.com/Yaw-VR/yaw-vr.github.io
+repo_name: Yaw-VR/yaw-vr.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -35,7 +35,7 @@ markdown_extensions:
       permalink: "#"
 plugins:
   - git-committers:
-      repository: Yaw-VR/yaw-documentation
+      repository: Yaw-VR/yaw-vr.github.io
       branch: main
       enabled: True
   - git-revision-date-localized:
