@@ -1,8 +1,4 @@
-# Index
-
-Welcome to the Yaw VR documentation site.
-
-## Getting Started
+# Getting Started
 
 - **Hardware Setup**: Follow the instructions in the Hardware section to set up your Yaw 3 simulator.
 - **Software Installation**: Refer to the Software section for installation and configuration of software components.
