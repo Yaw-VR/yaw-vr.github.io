@@ -4,6 +4,8 @@ repo_name: Yaw-VR/yaw-documentation
 edit_uri: edit/main/docs/
 theme:
   name: material
+  favicon: assets/yaw.png
+  logo: assets/yaw.png
   icon:
     edit: material/pencil
     view: material/eye
