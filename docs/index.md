@@ -1,5 +1,4 @@
 # Getting Started with the Yaw 3 Simulator
-=============================================
 
 To begin using your Yaw 3 simulator, follow these steps:
 
