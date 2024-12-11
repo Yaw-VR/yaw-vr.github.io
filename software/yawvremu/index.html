@@ -576,15 +576,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       Features
@@ -594,35 +585,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#installation-and-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Installation and Setup
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Steps
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -740,6 +707,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
   
 </li>
       
@@ -786,15 +762,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#features" class="md-nav__link">
     <span class="md-ellipsis">
       Features
@@ -804,35 +771,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#installation-and-setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Installation
+      Installation and Setup
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Steps
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -953,6 +896,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -977,30 +929,22 @@
 
 
 <h1 id="yaw-vr-emulator">Yaw VR Emulator<a class="headerlink" href="#yaw-vr-emulator" title="Permanent link">#</a></h1>
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">#</a></h2>
-<p>The Yaw VR Emulator is a software tool designed to simulate the functionality of a Yaw VR motion simulator. It allows developers and enthusiasts to test and develop VR applications without needing expensive hardware.</p>
+<p>The Yaw VR Emulator is a software tool designed to simulate the functionality of a Yaw VR motion simulator, allowing developers and enthusiasts to test and develop VR applications without needing expensive hardware.</p>
 <h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">#</a></h2>
 <ul>
 <li><strong>Local Network Discovery</strong>: The emulator is discoverable on the local network, just like the real device.</li>
 <li><strong>Game Connectivity</strong>: Games can connect to it for testing purposes.</li>
-<li><strong>TCP/UDP Commands</strong>: Supports TCP and UDP commands, sends responses, and displays them on the screen.</li>
-<li><strong>State Display</strong>: Shows the current state (Available, Connected, In Game).</li>
-<li><strong>3D Model View</strong>: Displays a 3D simulator model from four different directions.</li>
-<li><strong>Motion Simulation</strong>: Simulates motion based on input.</li>
-<li><strong>Rotation Limits</strong>: Shows rotation limits.</li>
-<li><strong>SimTools Support</strong>: Supports SimTools.</li>
+<li><strong>TCP/UDP Commands</strong>: Supports various TCP and UDP commands for communication with games.</li>
+<li><strong>Motion Simulation</strong>: Simulates motion based on received commands.</li>
+<li><strong>Tilt and Yaw Limits</strong>: Allows setting tilt and yaw limits for the emulator.</li>
 </ul>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">#</a></h2>
-<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">#</a></h3>
-<ul>
-<li><strong>Operating System</strong>: Windows 10 or later, or Android.</li>
-</ul>
-<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permanent link">#</a></h3>
+<h2 id="installation-and-setup">Installation and Setup<a class="headerlink" href="#installation-and-setup" title="Permanent link">#</a></h2>
 <ol>
-<li><strong>Download and Install</strong>: <a href="https://www.yawvr.com/downloads">Download Yaw VR Emulator</a></li>
+<li>Download and install the <a href="https://www.yawvr.com/downloads" target="_blank">Yaw VR Emulator software</a> from the official website.</li>
+<li>Launch the emulator and ensure it is running on the same network as your game or testing environment.</li>
+<li>Configure your game or application to connect to the emulator using the provided TCP and UDP commands.</li>
 </ol>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">#</a></h2>
-<p>Ensure that the device running the emulator is connected to the same network as the device you are connecting to the emulator.</p>
 <p>If you experience issues with communication between the emulator and your game:</p>
 <ul>
 <li>Verify that your network/router allows sending TCP and UDP messages to the chosen ports.</li>
@@ -1252,7 +1196,7 @@
 <p><strong>SET_POSITION</strong></p>
 <ul>
 <li><strong>Format:</strong><ul>
-<li>Yaw, pitch, and roll Euler angles in the format:
+<li>Yaw, pitch, and roll Euler angles in the format:<br />
    <code>"Y[000.00]P[359.99]R[342.54]"</code></li>
 </ul>
 </li>
@@ -1271,10 +1215,10 @@
 <p><strong>DEVICE_DISCOVERY_RESPONSE</strong></p>
 <ul>
 <li><strong>Format:</strong><ul>
-<li>If available:
-   <code>"YAWDEVICE;” + /Simulator ID/ + ”;” + /Simulator name/ + ”;" + /TCP server port/ + ";AVAILABLE"</code></li>
-<li>If reserved:
-   <code>"YAWDEVICE;” + /Simulator ID/ + ”;” + /Simulator name/ + ”;" + /TCP server port/ + ";RESERVED"</code></li>
+<li>If available:<br />
+<code>"YAWDEVICE;” + /Simulator ID/ + ”;” + /Simulator name/ + ”;" + /TCP server port/ + ";AVAILABLE"</code></li>
+<li>If reserved:<br />
+<code>"YAWDEVICE;” + /Simulator ID/ + ”;” + /Simulator name/ + ”;" + /TCP server port/ + ";RESERVED"</code></li>
 </ul>
 </li>
 </ul>
@@ -1283,8 +1227,8 @@
 <p><strong>ACTUAL_POSITION</strong></p>
 <ul>
 <li><strong>Format:</strong><ul>
-<li>Yaw, pitch, and roll Euler angles in the format:
-   <code>"Y[000.00]P[359.99]R[342.54]"</code></li>
+<li>Yaw, pitch, and roll Euler angles in the format:<br />
+<code>"Y[000.00]P[359.99]R[342.54]"</code></li>
 </ul>
 </li>
 <li><strong>Constraints:</strong><ul>
@@ -1295,6 +1239,12 @@
 </ul>
 </li>
 </ol>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">#</a></h2>
+<ul>
+<li>Ensure the emulator and game are running on the same network.</li>
+<li>Verify that the TCP and UDP ports are not blocked by firewalls or other security software.</li>
+<li>Check the emulator's log files for error messages or debugging information.</li>
+</ul>
 
 
 
@@ -1317,7 +1267,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 28, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 11, 2024</span>
   </span>
 
     
