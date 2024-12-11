@@ -1,26 +1,29 @@
 # USB Peripherals
 
-Connect your USB peripherals by plugging them into the available USB ports at the rear of the simulator. To access them on your computer you will need to set up the [Virtualhere](../../software/virtualhere.md) client on your computer. This client will allow you to access the connected devices as if they were physically plugged into your PC.
+Connect your USB peripherals by plugging them into the available USB ports at the rear of the simulator. To access them on your computer, set up the [Virtualhere](../../software/virtualhere.md) client, which allows you to access connected devices as if they were physically plugged into your PC.
 
-## Using a powered USB Hub
+## Using a Powered USB Hub
 
-The simulator allows for up to 4 USB devices plugged directly into it, if you have more devices then we suggest purchasing a powered USB hub. This will all of your USB devices have enough power.
+If you have more than 4 USB devices, consider purchasing a powered USB hub to ensure all devices receive sufficient power. The simulator supports up to 4 directly connected USB devices.
 
 ## Connecting Devices
 
-With the simulator powered on, once connected, USB devices should be recognized by the VirtualHere client running on your PC. If they do not appear immediately, try unplugging and replugging them or restarting the VirtualHere client.
+With the simulator powered on, connected USB devices should be recognized by the VirtualHere client on your PC. If they don't appear immediately, try:
 
-## Using peripherals
+* Unplugging and re-plugging them
+* Restarting the VirtualHere client
 
-Configure peripherals in each game as you would any peripheral connected directly to your computer.
+## Using Peripherals
 
-## Troubleshooting
+Configure peripherals in each game as you would with any peripheral directly connected to your computer.
 
-If you encounter issues with USB device recognition:
+## Troubleshooting USB Device Recognition
 
-1. Ensure that the VirtualHere client is up to date.
-2. Check for any driver updates for your USB devices.
-3. Try connecting the devices directly to a PC to ensure they are functioning correctly.
-4. Restart both the simulator and your PC.
+If issues arise, follow these steps:
 
-By following these steps, you should be able to successfully connect and use your USB peripherals with the yaw3 simulator.
+1. **Update VirtualHere Client**: Ensure the VirtualHere client is up-to-date.
+2. **Check Driver Updates**: Verify that drivers for your USB devices are current.
+3. **Test Direct Connection**: Connect devices directly to a PC to confirm they function correctly.
+4. **Restart Simulator and PC**: Restart both devices to resolve any connectivity issues.
+
+By following these guidelines, you should be able to successfully connect and use your USB peripherals with the Yaw 3 simulator.

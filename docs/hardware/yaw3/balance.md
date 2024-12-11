@@ -1,9 +1,14 @@
 # Balancing the Simulator
 
-As you add peripherals and your own body weight the centre of balance may change, there is a place to add weight plates behind the seat to counter-balance the added load. This adjustment helps maintain stability and control during operation.
+As you add peripherals and your body weight to the simulator, the center of balance may shift. To counterbalance the added load, add weight plates located behind the seat. This adjustment helps maintain stability and control during operation.
 
-Your aim is that the chair maintains neutral balance when you are sitting in the seat while the simulator is powered off.
+**Goal:** achieve neutral balance when sitting in the seat with the simulator powered off.
 
-The maximum diameter of weight plates you can fit in this area is 240mm, the maximum height of combined weight plates using the provided holding bolt is 44mm.
+**Tip:** Move seat forward/backwards to reduce the amount of weight you need to add.
 
-3D models that help keep the both Olympic and Non-olympic weight plates centrally located so they don't move side were created by ItsVRK and are freely available at <a href="https://makerworld.com/en/models/632564" target="_blank">Yaw 3 Motion Simulator Weight Plate Guide</a>.
+**Weight Plate Specifications:**
+
+- Maximum Diameter: 240mm
+- Maximum Height (combined using provided holding bolt): 44mm
+
+For precise placement, 3D models that centralize both Olympic and Non-Olympic weight plates have been created by ItsVRK. These models are freely available at <a href="https://makerworld.com/en/models/632564" target="_blank">Yaw 3 Motion Simulator Weight Plate Guide</a>.

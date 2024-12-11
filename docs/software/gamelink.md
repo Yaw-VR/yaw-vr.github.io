@@ -1,64 +1,59 @@
 # Game Link
 
-## Overview
+**Game Link** is a specialized, free tool designed to connect VR games seamlessly with Yaw VR motion simulators. It simplifies the setup process, allowing users to connect games with just a few clicks, without additional costs.
+**Note:** Game Link can be used with a Yaw VR Motion Simulator or the [Yaw VR Emulator](./yawvremu.md).
 
-**Game Link** is a free specialized tool designed to seamlessly connect VR games to Yaw VR motion simulators, enabling immersive gaming experiences with minimal setup. Unlike middleware solutions like SimTools, Yaw VR Game Link simplifies the process, allowing users to connect games to the simulator with a few clicks and without additional cost.
+## Key Features:
 
-**Note:** Game Link can be used with a Yaw VR Motion Simulator, or the [Yaw VR Emulator](./yawvremu.md).
+1. **Game Integration**: Supports numerous popular VR and PC games, including *Microsoft Flight Simulator*, *Assetto Corsa*, *Dirt 2*, and *Elite Dangerous*. If your game isn't supported, you can request integration from the developers.
+2. **User-Friendly Setup**: Simply start the simulator, launch Game Link, and play your desired game. The tool also supports motion customization.
+3. **Advanced Controls**: Adjust motion parameters like smoothing inputs, amplifying vibrations, and configuring LED lighting effects on the simulator.
+4. **Free and Flexible**: The software is free to download and use, with ongoing updates expanding game compatibility. It includes SDKs for Unity and Unreal, enabling native support in games.
 
-### Key Features:
+Download at: <a href="https://www.yawvr.com/game-link" target="_blank">Yaw VR Game Link</a>.
 
-1. **Game Integration**: Supports a growing list of popular VR and PC games, such as *Microsoft Flight Simulator*, *Assetto Corsa*, *Dirt 2*, *Elite Dangerous*, and more. If your game isn’t supported, you can request integration from the developers.
-2. **User-Friendly Setup**: Users simply start the simulator, launch Game Link, and then play their desired game. The tool also supports motion customization, including yaw, pitch, roll, and other dynamics.
-3. **Advanced Controls**: It allows adjustment of motion parameters, such as smoothing inputs, amplifying vibrations, and even configuring LED lighting effects on the simulator.
-4. **Free and Flexible**: The software is free to download and use, with ongoing updates to expand game compatibility.
+## Getting Started
 
-The engine also provides SDKs for Unity and Unreal, enabling developers to build native support into their games.
+1. **Turn On Your Simulator**: Start your Yaw VR simulator or launch the [Yaw VR Emulator](./yawvremu.md).
+2. **Open Game Link**: Launch the Game Link application.
+3. **Connect to Your Simulator**: In the Device Selection section, connect to your simulator.
+4. **Select a Game**: Choose a game from the list of supported titles.
+5. **Access Additional Settings**: Configure settings for the selected game plugin.
 
-For more information, check out the official page: <a href="https://www.yawvr.com/game-link" target="_blank">Yaw VR Game Link</a>.
-
-## How to use
-
-1. Turn on your Yaw VR simulator, or start the [Yaw VR Emulator](./yawvremu.md)
-2. Open Game Link
-3. On the Device Selection section of Game Link sidebar connect to your simulator
-4. Once connected you can select which game you would like to play from the Game Library section of Game Link
-5. Once game is selected you can access additional settings from the Yaw Link sidebar
+## Main Sections
 
 ### Simulators
 
-Allows you to connect to your simulator.
+Connect to your Yaw VR motion simulator.
 
 ### Games
 
-Lists games that have motion support profiles.
+Lists games with motion support profiles.
 
 ### Description
 
-Details of the currently selected game plugin.
+Details about the currently selected game plugin, including options to:
 
-Allows you to:
-
-- Start Plugin (of the currently selected game)
+- Start Plugin
 - Recenter Yaw
 - Calibrate (parked position)
 - Start Device
 
 ### Motion & Vibration
 
-Control what telemetry value maps to what axis and vibration of the simulator. This allows for fine-tuning the motion experience to match the game's dynamics.
+Fine-tune the motion experience by mapping telemetry values to simulator axes and vibrations.
 
 ### Lights
 
-Configure the LED lighting effects on your simulator based on the game or specific events within the game.
+Configure LED lighting effects based on the game or specific events.
 
-### Arcade Buttons (only Arcade Edition Simulators)
+### Arcade Buttons (Arcade Edition Simulators Only)
 
-Configure arcade buttons on your simulator, allowing you to map specific actions to these buttons. This feature is available only on Arcade Edition simulators.
+Map actions to arcade buttons for enhanced game-play.
 
 ### Simulator Settings
 
-Adjust settings specific of your simulator, these changes survive simulator restart.
+Adjust settings like power, pitch, roll, limited yaw, and vibration.
 
 - Power, for motors (suggested value 30)
 - Pitch forward  (default 30)
@@ -71,27 +66,23 @@ Adjust settings specific of your simulator, these changes survive simulator rest
 
 ### Input Monitor
 
-Shows incoming data for mapped telemetry values, and the outputs to the simulator
+View incoming data for mapped telemetry values and simulator outputs.
 
 ### USB
 
-Bind USB axes to outputs in much the same way as plugins. Even for games that lack telemetry support, you can still effectively utilize the simulator by mapping actions like joystick triggers to effects such as rumble feedback. If a specific telemetry function is missing—such as firing guns on a plane—you can bind the relevant joystick input to an appropriate output, ensuring that your simulation remains functional and immersive.
-
-Plugins and USB bindings can be used simultaneously, allowing for a highly customizable and versatile setup tailored to your needs.
+Bind USB axes to outputs for games lacking telemetry support, allowing customization of the simulation experience.
 
 ### Motion Compensation
 
-Control if and how how motion compensation is applied to the simulator.
+Control motion compensation applied to the simulator.
 
 ### Game Plugins
 
-Lists all available game plugins and allows you to install or update them.
-
-Each plugin allows you to select the installed path of the related game.
+Manage available game plugins, including installation and updates.
 
 ### Settings
 
-Settings for:
+Configure various options like anti-jump, vibration, convergent limit, anti-rollover, input commands, and miscellaneous settings for a tailored experience.
 
 - Anti Jump (YAW)
     - Enabled (default selected)
@@ -116,7 +107,7 @@ Settings for:
     - Show splash (default selected)
     - Try to connect automatically (default selected)
     - Start device with delay (default selected)
-    - Manage Virtualhere (default selected)
+    - Manage VirtualHere (default selected)
     - Stop plugin when game exits (default selected)
     - Exit on window close (default unselected)
     - Autostart plugin when game exits (default selected)
