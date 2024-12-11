@@ -1,4 +1,7 @@
 site_name: Yaw VR Documentation
+site_url: https://docs.yawvr.com
+site_description: >-
+  Documentation site for Yaw VR Hardware and Software
 repo_url: https://github.com/Yaw-VR/yaw-vr.github.io
 repo_name: Yaw-VR/yaw-vr.github.io
 edit_uri: edit/main/docs/
@@ -42,6 +45,7 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
       type: date
+  - social
 extra:
   social:
     - icon: fontawesome/solid/globe
