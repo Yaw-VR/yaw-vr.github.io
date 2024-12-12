@@ -7,7 +7,7 @@ repo_name: Yaw-VR/yaw-vr.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
-  favicon: assets/yaw.png
+  favicon: assets/favicon/yaw_vr.png
   logo: assets/yaw.png
   icon:
     edit: material/pencil
