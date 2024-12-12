@@ -23,13 +23,14 @@ Developing locally allows you to fully test changes before submitting a pull req
 2. cd to where you want to download the project
 3. Fork the repository, clone your fork locally.
 4. cd into cloned directory `cd yawvr-documentation`
-5. Install project requirements `pipenv install`
-6. run the mkdocs server by executing the following in your terminal `mkdocs serve`
-7. Open an issue in the parent project and take note of the issue number
-8. Create a feature branch locally to implement the change <br>`git checkout -b feature/[issue number]-[short description]`<br>Example: `git checkout -b feature/3-add-new-section-to-readme`
-9. Make required changes and view them in browser locally until you are happy with changes
-10. Commit the changes to your feature branch and push to your fork
-11. Submit a pull request.
+5. Enable the pipenv shell `pipenv shell`
+6. Install project requirements `pipenv install`
+7. Run the mkdocs server by executing the following in your terminal `mkdocs serve`
+8. Open an issue in the parent project and take note of the issue number
+9. Create a feature branch locally to implement the change <br>`git checkout -b feature/[issue number]-[short description]`<br>Example: `git checkout -b feature/3-add-new-section-to-readme`
+10. Make required changes and view them in browser locally until you are happy with changes
+11. Commit the changes to your feature branch and push to your fork
+12. Submit a pull request.
 
 ### Adding a dependency: You shouldn't really need to do this
 
