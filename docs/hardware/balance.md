@@ -1,6 +1,6 @@
 # Balancing the Simulator
 
-As you add peripherals and your body weight to the simulator, the center of balance may shift. To counterbalance the added load, add weight plates located behind the seat. This adjustment helps maintain stability and control during operation.
+As you add peripherals and your body weight to the simulator, the center of balance may shift. To counterbalance the added load, you can add weight plates behind the seat of the Yaw 2/3. This adjustment helps maintain stability and control during operation.
 
 **Goal:** achieve neutral balance when sitting in the seat with the simulator powered off.
 

@@ -1,6 +1,6 @@
 # USB Peripherals
 
-Connect your USB peripherals by plugging them into the available USB ports at the rear of the simulator. To access them on your computer, set up the [Virtualhere](../../software/virtualhere.md) client, which allows you to access connected devices as if they were physically plugged into your PC.
+Connect your USB peripherals by plugging them into the available USB ports at the rear of the Yaw 2/3 simulator. To access them on your computer, set up the [Virtualhere](../../software/virtualhere.md) client, which allows you to access connected devices as if they were physically plugged into your PC.
 
 ## Using a Powered USB Hub
 
