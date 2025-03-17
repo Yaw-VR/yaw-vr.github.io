@@ -10,7 +10,7 @@
 3. **Advanced Controls**: Adjust motion parameters like smoothing inputs, amplifying vibrations, and configuring LED lighting effects on the simulator.
 4. **Free and Flexible**: The software is free to download and use, with ongoing updates expanding game compatibility. It includes SDKs for Unity and Unreal, enabling native support in games.
 
-Download at: <a href="https://www.yawvr.com/game-link" target="_blank">Yaw VR Game Link</a>.
+Download via Steam at: <a href="https://store.steampowered.com/app/3376270/Game_Link/" target="_blank">Yaw VR Game Link</a>.
 
 ## Getting Started
 
