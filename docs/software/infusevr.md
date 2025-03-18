@@ -58,6 +58,7 @@ To start using Infuse VR:
 For accurate motion compensation, we recommend using controller-based motion compensation with 3D printable controller mounts:
 
 * <a href="https://makerworld.com/en/models/709270" target=_blank">Quest3 Controller Mount for VR Motion Compensation</a>
+* <a href="https://makerworld.com/en/models/122168" target=_blank">Pico4 Ultra Controller Mount for VR Motion Compensation</a>
 
 To enable motion compensation in Infuse VR:
 
