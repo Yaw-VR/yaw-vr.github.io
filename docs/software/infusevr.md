@@ -23,7 +23,7 @@ To begin using Infuse VR, follow these steps:
 2. **Install the Infuse VR Client APK on Your Headset**:
 	* Open InfuseVR, navigate to the Connections tab, and click the "Install latest APK" button with your headset connected in Developer mode.<br /><br />
 	![Install Infuse VR client apk](../assets/images/infusevr/install-apk.png)
-	* Some HMD's allow download and installation from a browser, you can use this link:<br /><a href="http://yaw.one/infusevr/infusevr_client_android_playtest.apk">http://yaw.one/infusevr/infusevr_client_android_playtest.apk</a>
+	* Some HMD's allow download and installation from a browser, you can use this link:<br /><a href="https://yaw.one/infusevr/infusevr_client_android_playtest.apk">https://yaw.one/infusevr/infusevr_client_android_playtest.apk</a>
 
 ## Using Infuse VR
 
