@@ -23,6 +23,7 @@ To begin using Infuse VR, follow these steps:
 2. **Install the Infuse VR Client APK on Your Headset**:
 	* Open InfuseVR, navigate to the Connections tab, and click the "Install latest APK" button with your headset connected in Developer mode.<br /><br />
 	![Install Infuse VR client apk](../assets/images/infusevr/install-apk.png)
+	* Some HMD's allow download and installation from a browser, you can use this link:<br /><a href="http://yaw.one/infusevr/infusevr_client_android_playtest.apk">http://yaw.one/infusevr/infusevr_client_android_playtest.apk</a>
 
 ## Using Infuse VR
 
@@ -72,3 +73,16 @@ To enable motion compensation in Infuse VR:
 3. **Save and Apply Changes**:
 	* Click "Apply" or "OK" to save your settings.
 
+## Hand and Gaming Accessory Visualization
+
+Infuse VR provides detailed visualization of hands and gaming accessories, enhancing control and awareness within the virtual environment.
+
+1. **Assign device to model**:
+    * From the Desktop Infuse VR application check that your physical USB device (e.g. your joystick) is assigned to a 3d model. Our system can automatically pair 3d models and physical devices.<br /><br />
+	![Assigning a peripheral](../assets/images/infusevr/peripheral-assign.avif)<br /><br />
+	![Peripheral succesfully assigned](../assets/images/infusevr/peripheral-assign-success.avif)
+	<div style="background-color:green; border-radius: 5px; font-weight: bold; margin-top: 20px; padding: 5px 10px;">
+	Tip: if you cannot find the 3D model for your device, choose a similar model or create your own.
+	</div>
+2. **Edit the client settings**:
+    *
