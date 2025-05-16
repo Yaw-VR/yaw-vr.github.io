@@ -56,3 +56,7 @@ Wirelessly connect USB devices from your Yaw VR simulator to your computer.
 ### [Yaw VR Emulator](software/yawvremu.md)
 
 For testing or game development without a physical device, use the Yaw VR Emulator.
+
+### [Yaw VR SDK](software/sdk.md)
+
+For interfacing directly with simulator in a game development environment.
