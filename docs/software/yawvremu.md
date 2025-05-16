@@ -12,7 +12,7 @@ The Yaw VR Emulator is a software tool designed to simulate the functionality of
 
 ## Installation and Setup
 
-1. Download and install the <a href="https://www.yawvr.com/downloads" target="_blank">Yaw VR Emulator software</a> from the official website.
+1. Download and install the <a href="https://yaw.one/emulator/winbuild.zip" target="_blank">Yaw VR Emulator for Windows</a> or <a href="https://play.google.com/store/apps/details?id=com.yawvr.yawemulator">Yaw VR Emulator for Android</a>.
 2. Launch the emulator and ensure it is running on the same network as your game or testing environment.
 3. Configure your game or application to connect to the emulator using the provided TCP and UDP commands.
 

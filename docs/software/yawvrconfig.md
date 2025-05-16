@@ -1,4 +1,4 @@
-# Yaw VR Config
+# Yaw VR Config App
 
 The Yaw VR Config application is a user-friendly tool designed to simplify the setup process for your Yaw VR simulator. It enables users to configure their simulators without requiring extensive technical knowledge.
 
@@ -8,6 +8,11 @@ The Yaw VR Config application is a user-friendly tool designed to simplify the s
 * **Movement and Power Limits**: Define movement limits and control motor power to ensure a safe and optimal simulation experience.
 * **Advanced Settings**: Fine-tune parameters such as resolution, frame rate, and display settings to optimize performance for your specific needs.
 * **Telemetry Capture and Export**: Record and export simulation data for in-depth analysis or sharing with others.
+
+## Installation and Setup
+
+1. Download and install the <a href="https://yaw.one/configapp/windows/build.zip" target="_blank">Yaw VR Config App for Windows</a>, <a href="https://play.google.com/store/apps/details?id=com.yawvr.configapp" target="_blank">Yaw VR Config App for Android</a>, or <a href="https://apps.apple.com/us/app/yawvr-config/id1475251402. target="_blank">Yaw VR Config App for iOS</a>.
+2. Launch the App and ensure it is running on the same network as your game or testing environment.
 
 ## Connecting Your Simulator to WiFi
 
