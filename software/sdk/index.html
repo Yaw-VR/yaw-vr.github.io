@@ -10,28 +10,26 @@
       
       
       
-        <link rel="canonical" href="https://docs.yawvr.com/hardware/yaw1/assembly/">
+        <link rel="canonical" href="https://docs.yawvr.com/software/sdk/">
       
       
-        <link rel="prev" href="../../yaw2/assembly/">
+        <link rel="prev" href="../yawvremu/">
       
       
-        <link rel="next" href="../../balance/">
       
-      
-      <link rel="icon" href="../../../assets/favicon/yaw_vr.png">
+      <link rel="icon" href="../../assets/favicon/yaw_vr.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>Yaw 1 Assembly - Yaw VR Documentation</title>
+        <title>Yaw VR SDK - Yaw VR Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -59,11 +57,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Yaw 1 Assembly - Yaw VR Documentation" >
+        <meta  property="og:title"  content="Yaw VR SDK - Yaw VR Documentation" >
       
         <meta  property="og:description"  content="Documentation site for Yaw VR Hardware and Software" >
       
-        <meta  property="og:image"  content="https://docs.yawvr.com/assets/images/social/hardware/yaw1/assembly.png" >
+        <meta  property="og:image"  content="https://docs.yawvr.com/assets/images/social/software/sdk.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -71,19 +69,19 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://docs.yawvr.com/hardware/yaw1/assembly/" >
+        <meta  property="og:url"  content="https://docs.yawvr.com/software/sdk/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Yaw 1 Assembly - Yaw VR Documentation" >
+        <meta  name="twitter:title"  content="Yaw VR SDK - Yaw VR Documentation" >
       
         <meta  name="twitter:description"  content="Documentation site for Yaw VR Hardware and Software" >
       
-        <meta  name="twitter:image"  content="https://docs.yawvr.com/assets/images/social/hardware/yaw1/assembly.png" >
+        <meta  name="twitter:image"  content="https://docs.yawvr.com/assets/images/social/software/sdk.png" >
       
     
     
-   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -92,7 +90,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -111,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#assembly" class="md-skip">
+        <a href="#yaw-sdk" class="md-skip">
           Skip to content
         </a>
       
@@ -127,9 +125,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Yaw VR Documentation" class="md-header__button md-logo" aria-label="Yaw VR Documentation" data-md-component="logo">
+    <a href="../.." title="Yaw VR Documentation" class="md-header__button md-logo" aria-label="Yaw VR Documentation" data-md-component="logo">
       
-  <img src="../../../assets/yaw.png" alt="logo">
+  <img src="../../assets/yaw.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -146,7 +144,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Yaw 1 Assembly
+              Yaw VR SDK
             
           </span>
         </div>
@@ -232,9 +230,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Yaw VR Documentation" class="md-nav__button md-logo" aria-label="Yaw VR Documentation" data-md-component="logo">
+    <a href="../.." title="Yaw VR Documentation" class="md-nav__button md-logo" aria-label="Yaw VR Documentation" data-md-component="logo">
       
-  <img src="../../../assets/yaw.png" alt="logo">
+  <img src="../../assets/yaw.png" alt="logo">
 
     </a>
     Yaw VR Documentation
@@ -261,7 +259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -278,19 +276,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -304,7 +300,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Hardware
@@ -318,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../yaw3/assembly/" class="md-nav__link">
+      <a href="../../hardware/yaw3/assembly/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -339,11 +335,244 @@
   
   
     <li class="md-nav__item">
-      <a href="../../yaw2/assembly/" class="md-nav__link">
+      <a href="../../hardware/yaw2/assembly/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Yaw 2 Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/yaw1/assembly/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yaw 1 Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/balance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Balancing your Simulator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/connect/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Connect to Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hardware/peripherals/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    USB Peripherals
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yawvrconfig/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yaw VR Config
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../infusevr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Infuse VR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gamelink/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Game Link
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtualhere/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VirtualHere
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yawvremu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yaw VR Emulator
   </span>
   
 
@@ -373,7 +602,7 @@
           
   
   <span class="md-ellipsis">
-    Yaw 1 Assembly
+    Yaw VR SDK
   </span>
   
 
@@ -384,7 +613,7 @@
         
   
   <span class="md-ellipsis">
-    Yaw 1 Assembly
+    Yaw VR SDK
   </span>
   
 
@@ -406,38 +635,68 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#warnings" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Warnings
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#basic-assembly" class="md-nav__link">
+  <a href="#key-features" class="md-nav__link">
     <span class="md-ellipsis">
-      Basic Assembly
+      Key Features
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#turning-on" class="md-nav__link">
+  <a href="#getting-started" class="md-nav__link">
     <span class="md-ellipsis">
-      Turning on
+      Getting Started
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#charging" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Charging
+      Installation
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-the-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download the SDK:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -445,237 +704,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../balance/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Balancing your Simulator
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../connect/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Connect to Network
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../peripherals/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    USB Peripherals
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Software
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Software
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../software/yawvrconfig/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Yaw VR Config
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../software/infusevr/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Infuse VR
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../software/gamelink/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Game Link
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../software/virtualhere/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    VirtualHere
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../software/yawvremu/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Yaw VR Emulator
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../software/sdk/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Yaw VR SDK
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -715,38 +743,68 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#warnings" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Warnings
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#basic-assembly" class="md-nav__link">
+  <a href="#key-features" class="md-nav__link">
     <span class="md-ellipsis">
-      Basic Assembly
+      Key Features
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#turning-on" class="md-nav__link">
+  <a href="#getting-started" class="md-nav__link">
     <span class="md-ellipsis">
-      Turning on
+      Getting Started
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#charging" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
-      Charging
+      Installation
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-the-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download the SDK:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -765,7 +823,7 @@
                   
 
   
-    <a href="https://github.com/Yaw-VR/yaw-vr.github.io/edit/main/docs/hardware/yaw1/assembly.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/Yaw-VR/yaw-vr.github.io/edit/main/docs/software/sdk.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -773,92 +831,30 @@
   
 
 
-<h1 id="assembly">Assembly<a class="headerlink" href="#assembly" title="Permanent link">#</a></h1>
-<p>If you're looking to assemble and operate this device, we recommend watchthe linked assembly video on YouTube.</p>
-<style>
-.vid-container {
-    position: relative;
-    padding-bottom: 50%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;   /* optional */
-}
-
-.vid-container iframe,
-.vid-container object,
-.vid-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-</style>
-
-<div class="vid-container">
-  <iframe src="https://www.youtube.com/embed/oNxOBwIcrNw?si=ghKm2T83GP2Y6599" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<h2 id="warnings">Warnings<a class="headerlink" href="#warnings" title="Permanent link">#</a></h2>
-<div style="background-color:#DA392B; border-radius: 5px; font-weight: bold; margin-bottom: 20px; padding: 5px 10px;">
-TO AVOID DAMAGE TO THE SIMULATOR<br />
-Please begin with axis limits and gradually increase the motion range step by step, exercising caution.<br />
-We recommend starting limit of 12° on each axis and starting power of 30%.
-</div>
-
-<div style="background-color:#DA392B; border-radius: 5px; font-weight: bold; margin-bottom: 20px; padding: 5px 10px;">
-ALWAYS KEEP THE RIGHT BALANCE TO AVOID WHEEL SLIPPING. IT CAN DAMAGE THE SHELL.<br />
-With player in the simulator if the shell doesn't move by itself, but it's easy to move it by hand in any direction, the shell is balanced well. You can adjust the balance if it is necessary. The seat balance can be adjusted by sitting forward or backward.<br />
-To keep the balance during the game, please don't make large movements with your body.
-</div>
-
-<div style="background-color:#DA392B; border-radius: 5px; font-weight: bold; margin-bottom: 20px; padding: 5px 10px;">
-Before You Exit the Simulator<br />
-Ensure you either push the “STOP” button or turn off the power switch to prevent any potential issues.
-</div>
-
-<h2 id="basic-assembly">Basic Assembly<a class="headerlink" href="#basic-assembly" title="Permanent link">#</a></h2>
-<p><a class="glightbox" href="../../../assets/images/yaw1/prep-01.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Mount Footrest Plate" src="../../../assets/images/yaw1/prep-01.avif" /></a></p>
+<h1 id="yaw-sdk">Yaw SDK<a class="headerlink" href="#yaw-sdk" title="Permanent link">#</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">#</a></h2>
+<p>The Yaw SDK is a powerful toolkit designed to enable seamless integration between your game and the Yaw Simulator. Unlike traditional integration methods that rely on Gamelink, the Yaw SDK provides direct access to the Yaw Simulator's features, allowing developers to create immersive experiences with minimal overhead. This documentation provides a comprehensive guide to setting up, configuring, and using the Yaw SDK in your game development projects.</p>
+<h2 id="key-features">Key Features<a class="headerlink" href="#key-features" title="Permanent link">#</a></h2>
 <ul>
-<li>Mount the footrest plate (1) on the footholder arm (2).</li>
+<li>Direct Integration: Communicate directly with the Yaw Simulator without intermediaries like Gamelink.</li>
+<li>Cross-Platform Support: Compatible with major gaming platforms, including Windows, macOS, and Linux, Android.</li>
+<li>Real-Time Control: Send and receive simulator data in real-time for responsive gameplay.</li>
 </ul>
-<p><a class="glightbox" href="../../../assets/images/yaw1/prep-02.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect foot holder to shell" src="../../../assets/images/yaw1/prep-02.avif" /></a></p>
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">#</a></h2>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">#</a></h3>
+<p>Before integrating the Yaw SDK, ensure you have the following:</p>
 <ul>
-<li>Insert the foot holder arm (2) into the shell. (3)</li>
+<li>Yaw Simulator Hardware, or Emulator: A compatible Yaw Simulator device (version 2.0 or later).</li>
+<li>Development Environment: A supported IDE or text editor (e.g., Visual Studio, Unity, Unreal Engine).</li>
+<li>Programming Language: The SDK supports C++, C#, and Python (version 3.8+).</li>
+<li>Operating System: Windows 10/11, macOS 11+, or Ubuntu 20.04+.</li>
 </ul>
-<p><a class="glightbox" href="../../../assets/images/yaw1/prep-03.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect foot holder to shell" src="../../../assets/images/yaw1/prep-03.avif" /></a></p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">#</a></h2>
+<h3 id="download-the-sdk">Download the SDK:<a class="headerlink" href="#download-the-sdk" title="Permanent link">#</a></h3>
 <ul>
-<li>Ensure a proper fit, especially when tightening the screws.</li>
+<li><a href="https://yaw.one/UnitySDK/Documentation/html/" target="_blank">Yaw SDK for Unity</a></li>
+<li><a href="https://yaw.one/UnrealSDK/YawVR_UE4.zip" target="_blank">Yaw SDK for Unreal Engine</a></li>
 </ul>
-<p><a class="glightbox" href="../../../assets/images/yaw1/prep-04.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Tighten screws" src="../../../assets/images/yaw1/prep-04.avif" /></a></p>
-<ul>
-<li>Firmly tighten all screws to secure the assembly.</li>
-</ul>
-<h2 id="turning-on">Turning on<a class="headerlink" href="#turning-on" title="Permanent link">#</a></h2>
-<p><a class="glightbox" href="../../../assets/images/yaw1/start-01.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect power cable" src="../../../assets/images/yaw1/start-01.avif" /></a></p>
-<ul>
-<li>Plug in the power cable (4)​</li>
-<li>Turn on the simulator (5)</li>
-<li>
-<p>Remember to activate the motors (6) when you are ready to use the device.
-​
-<a class="glightbox" href="../../../assets/images/yaw1/start-02.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect power cable" src="../../../assets/images/yaw1/start-02.avif" /></a></p>
-</li>
-<li>
-<p>Now, turn on the position tracker (7)</p>
-</li>
-</ul>
-<p><a class="glightbox" href="../../../assets/images/yaw1/start-03.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect power cable" src="../../../assets/images/yaw1/start-03.avif" /></a></p>
-<ul>
-<li>If the indicator lamp (8) is green, the hardware setup is complete.</li>
-</ul>
-<h2 id="charging">Charging<a class="headerlink" href="#charging" title="Permanent link">#</a></h2>
-<p><a class="glightbox" href="../../../assets/images/yaw1/chargeblinking.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect power cable" src="../../../assets/images/yaw1/chargeblinking.avif" /></a></p>
-<p>If the indicator lamp (8) is blinking with green color, the position tracker should be charged.</p>
-<p><a class="glightbox" href="../../../assets/images/yaw1/charge.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Connect charging cable" src="../../../assets/images/yaw1/charge.avif" /></a></p>
-<p>Use a regular micro-USB charger; avoid fast chargers.</p>
-<p>If the indicator lamp (8) blinks with red, the connection might be lost. Reconnect the tracker by re-pairing them in the app.</p>
-<p><a class="glightbox" href="../../../assets/images/yaw1/app-reset.avif" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="App reset" src="../../../assets/images/yaw1/app-reset.avif" /></a></p>
 
 
 
@@ -881,7 +877,7 @@ Ensure you either push the “STOP” button or turn off the power switch to pre
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 5, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 16, 2025</span>
   </span>
 
     
@@ -891,7 +887,7 @@ Ensure you either push the “STOP” button or turn off the power switch to pre
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">March 5, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 16, 2025</span>
   </span>
 
     
@@ -997,10 +993,10 @@ Ensure you either push the “STOP” button or turn off the power switch to pre
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
