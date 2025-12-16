@@ -1,4 +1,6 @@
-# How to contribute
+# This repository is no longer maintained, instead use https://github.com/ItsVRK/yawvr
+
+## How to contribute
 
 This project uses:
 

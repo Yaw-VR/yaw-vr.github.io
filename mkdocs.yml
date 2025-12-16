@@ -15,6 +15,7 @@ theme:
     repo: fontawesome/brands/git-alt
   features:
     - content.action.edit
+  custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
